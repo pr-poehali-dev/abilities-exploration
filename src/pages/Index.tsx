@@ -57,7 +57,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <h1 className="text-5xl md:text-6xl font-bold font-heading mb-6 leading-tight">
-                Стань частью <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">большой команды</span>
+                Достойная работа с <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">гарантированным карьерным ростом</span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8">
                 Работай в крупнейшей сети пунктов выдачи Ozon, Wildberries и Яндекс Маркет. Гибкий график, достойная зарплата и карьерный рост.
@@ -73,12 +73,11 @@ const Index = () => {
               </div>
             </div>
             <div className="animate-slide-in-right">
-              <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-3xl blur-3xl"></div>
+              <div className="relative flex items-center justify-center">
                 <img 
-                  src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop" 
-                  alt="Команда ПВЗ" 
-                  className="relative rounded-3xl shadow-2xl w-full"
+                  src="https://cdn.poehali.dev/projects/9f3120c6-7a2e-4895-9539-0d988dd3b9d9/files/00f6b1df-6032-4056-babb-708188224f99.jpg" 
+                  alt="Wildberries ПВЗ" 
+                  className="w-full max-w-lg drop-shadow-2xl"
                 />
               </div>
             </div>
